@@ -26,7 +26,15 @@
 */
 
 body {
-    color: red;
+    background-color: lightgray;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 16px;
+}
+
+div {
+    border: 1px solid Chocolate;
 }
 
 
@@ -38,6 +46,25 @@ body {
 /* Content styles
 (all the styles inside the < sections > or < aside > tags)
 */
+
+nav {
+    height: 10%;
+    margin: 1em 0 1em 0;
+    font-weight: lighter;
+}
+
+nav img {
+    height: 4rem;
+    width: auto;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul #currentpage {
+    font-weight: bold;
+}
 
 
 /* Footer styles
