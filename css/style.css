@@ -27,17 +27,16 @@
 
 body {
     background-color: lightgray;
-    width: 60%;
     margin-top: 0;
     /*how do i make top margin disappear?*/
-    margin-right: auto;
-    margin-left: auto;
     font-size: 16px;
     font-family: Roboto, Arial, sans-serif;
 }
 
-div {
-    border: 1px solid Chocolate;
+div.content {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
@@ -57,17 +56,15 @@ nav {
     background-color: white;
     font-weight: lighter;
     color: dimgrey;
+    border-bottom: 1px solid #DDD;
     position: fixed;
-    width: 60%;
-    /*needed to reset the width with position fixed*/
+    width: 100%;
 }
 
-section {}
-
 nav img {
-    height: 4rem;
-    margin-top: .4rem;
-    margin-bottom: .4rem;
+    height: 2.75rem;
+    margin-top: .6rem;
+    margin-bottom: .6rem;
     width: auto;
 }
 
@@ -89,10 +86,81 @@ nav ul #currentpage {
     font-weight: 600;
 }
 
-section img {
-    width: 100%;
+section.introduction {
+    background-image: url("../images/first-background.jpg");
+    height: 45.938em;
+    background-position: center bottom;
+    overflow: auto;
+    background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 4.8rem;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+
+section.introduction h1 {
+    margin-top: 17.5rem;
+    font-size: 3.125rem;
+}
+
+section.introduction h3 {
+    margin-top: 1.25;
+    font-size: 1.563rem;
+}
+
+section.introduction .buttons {
+    color: white;
+    margin-top: 1.563rem;
+    text-align: center;
+}
+
+section.introduction .buttons button {
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+}
+
+section.cases {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5rem;
+}
+
+section.cases .content {
+    text-align: center;
+    margin-top: 7.875rem;
+}
+
+section.cases h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+
+section.cases .devices {
+    list-style-type: none;
+}
+
+section.cases .devices img {
+    width: 127px;
+    height: 127px;
+}
+
+section.cases .devices li {
+    width: 33.3%;
+    float: left;
+}
+
+section.cases .devices li h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0 1.875rem;
 }
 
 
