@@ -31,6 +31,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     font-size: 16px;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 div {
@@ -48,22 +49,39 @@ div {
 */
 
 nav {
-    height: 10%;
-    margin: 1em 0 1em 0;
+    /* Should there be a height specified here? How will that impact content?*/
+    margin: 1rem .8rem 1rem .8rem;
+    /*The top and bottom margins don't seem to make a difference. */
+    background-color: white;
     font-weight: lighter;
+    color: dimgrey;
+    position: fixed;
+    width: 60%;
 }
 
 nav img {
     height: 4rem;
+    margin-top: .2rem;
+    margin-bottom: .2rem;
     width: auto;
 }
 
 nav ul {
     list-style-type: none;
+    display: inline-block;
+    float: right;
+    margin-top: 1.7rem;
+    margin-bottom: auto;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: .2rem;
+    margin-right: .2rem;
 }
 
 nav ul #currentpage {
-    font-weight: bold;
+    font-weight: 600;
 }
 
 
