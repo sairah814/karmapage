@@ -45,9 +45,6 @@ div.content {
 */
 
 nav {
-    /* Should there be a height specified here? How will that impact content?*/
-    /*margin-bottom: 2rem;*/
-    /*The top and bottom margins don't seem to make a difference. Should I put this in another container??*/
     background-color: white;
     color: dimgrey;
     border-bottom: 1px solid #DDD;
