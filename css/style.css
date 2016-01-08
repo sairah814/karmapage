@@ -46,11 +46,11 @@ div.content {
 
 nav {
     background-color: white;
-    color: dimgrey;
+    color: #838994;
     border-bottom: 1px solid #DDD;
     position: fixed;
     width: 100%;
-    font-weight: lighter;
+    font-weight: 300;
 }
 
 nav img {
@@ -75,7 +75,13 @@ nav ul li {
 }
 
 nav ul #currentpage {
-    font-weight: 600;
+    font-weight: 400;
+    color: #4c5050;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    color: #333333;
 }
 
 
@@ -170,8 +176,8 @@ section.cases .devices li h3 {
 .social {
     background-color: #fff;
     padding-bottom: 9.375rem;
-    text-align: center;
     overflow: auto;
+    text-align: center;
 }
 
 .social hr {
@@ -197,6 +203,10 @@ section.cases .devices li h3 {
     border: 1px solid #eaebec;
     padding: 0.625rem 0;
     text-align: center;
+}
+
+.social ul.icons li:hover {
+    cursor: pointer;
 }
 
 .social ul.icons li.twitter {
