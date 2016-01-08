@@ -131,6 +131,10 @@ section.introduction .buttons button {
     font-size: 1.125rem;
 }
 
+section.introduction .buttons button:hover {
+    background-color: #f14a29;
+}
+
 section.cases {
     background-color: #fff;
     overflow: hidden;
